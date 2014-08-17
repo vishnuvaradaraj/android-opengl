@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+	<item
+        android:id="@+id/menu_slides"
+        android:showAsAction="never"
+        android:title="@string/menu_slides"/>
+	<item
+        android:id="@+id/menu_planes"
+        android:showAsAction="never"
+        android:title="@string/menu_planes"/>	
+	<item
+        android:id="@+id/menu_logout"
+        android:showAsAction="never"
+        android:title="@string/menu_logout"/>
+		
+	<item android:id="@+id/action_share"
+            android:icon="@drawable/ic_menu_share_holo_light"
+            android:title="@string/share"
+            android:enabled="true"
+            android:actionProviderClass="android.widget.ShareActionProvider"
+            android:visible="false"
+            android:showAsAction="ifRoom" />	
+</menu>

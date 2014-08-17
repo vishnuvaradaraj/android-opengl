@@ -1,0 +1,584 @@
+{
+    "metadata": {
+        "formatVersion": 1,
+        "type": "scene",
+        "sourceFile": "scene.blend",
+        "generatedBy": "Parabay Blender 2.64 Exporter",
+        "objects": 10,
+        "geometries": 6,
+        "materials": 8,
+        "textures": 3
+    },
+    "actions": [
+        {
+            "id": "CameraAction",
+            "fps": 24,
+            "len": 9.20833,
+            "channels": [
+                {
+                    "id": "location",
+                    "kf": [
+                        {
+                            "t": 0,
+                            "x": 8.16903,
+                            "y": -6.05318,
+                            "z": 4.44881
+                        },
+                        {
+                            "t": 1.70833,
+                            "x": 7.98625,
+                            "y": -6.52755,
+                            "z": 4.39969
+                        },
+                        {
+                            "t": 2.83333,
+                            "x": 7.31224,
+                            "y": -7.44074,
+                            "z": 4.89685
+                        },
+                        {
+                            "t": 2.91667,
+                            "x": 7.88277,
+                            "y": -6.7961,
+                            "z": 4.37188
+                        },
+                        {
+                            "t": 6.70833,
+                            "x": 8.74519,
+                            "y": -4.08122,
+                            "z": 4.99036
+                        },
+                        {
+                            "t": 9.20833,
+                            "x": 7.72359,
+                            "y": -6.35346,
+                            "z": 5.02341
+                        }
+                    ]
+                },
+                {
+                    "id": "rotation",
+                    "kf": [
+                        {
+                            "t": 0,
+                            "x": 1.44343,
+                            "y": -0.534644,
+                            "z": 0.230471
+                        },
+                        {
+                            "t": 1.70833,
+                            "x": 1.44343,
+                            "y": -0.534644,
+                            "z": 0.782074
+                        },
+                        {
+                            "t": 2.83333,
+                            "x": 1.44343,
+                            "y": -0.534644,
+                            "z": 0.236269
+                        },
+                        {
+                            "t": 2.91667,
+                            "x": 1.44343,
+                            "y": -0.534644,
+                            "z": 0.230471
+                        },
+                        {
+                            "t": 6.70833,
+                            "x": 1.44343,
+                            "y": -0.534644,
+                            "z": 0.230471
+                        },
+                        {
+                            "t": 9.20833,
+                            "x": 1.44343,
+                            "y": -0.534644,
+                            "z": 1.1624
+                        }
+                    ]
+                },
+                {
+                    "id": "scale",
+                    "kf": [
+                        {
+                            "t": 0,
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        {
+                            "t": 1.70833,
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        {
+                            "t": 2.83333,
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        {
+                            "t": 2.91667,
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        {
+                            "t": 6.70833,
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        {
+                            "t": 9.20833,
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "lights": [
+        {
+            "name": "Lamp",
+            "type": "PointLight",
+            "intensity": 1,
+            "range": 30,
+            "linear": 0,
+            "quadratic": 1,
+            "position": [
+                4.07625,
+                1.00545,
+                5.90386
+            ],
+            "color": 16777215
+        },
+        {
+            "name": "Point",
+            "type": "PointLight",
+            "intensity": 1,
+            "range": 25,
+            "linear": 0,
+            "quadratic": 1,
+            "position": [
+                -1.99457,
+                4.13236,
+                1.55009
+            ],
+            "color": 16777215
+        },
+        {
+            "name": "Point.001",
+            "type": "PointLight",
+            "intensity": 1,
+            "range": 25,
+            "linear": 0,
+            "quadratic": 1,
+            "position": [
+                -7.75055,
+                -1.33129,
+                -6.09659
+            ],
+            "color": 16777215
+        }
+    ],
+    "cameras": [
+        {
+            "name": "Camera",
+            "type": "PerspectiveCamera",
+            "fov": 49.159264,
+            "aspect": 1.333,
+            "near": 0.1,
+            "far": 100,
+            "position": [
+                8.57499,
+                -4.98123,
+                4.71415
+            ],
+            "target": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "urlBaseType": "relativeToScene",
+    "objects": {
+        "OpenBook": {
+            "geometry": "geo_Mesh.00",
+            "groups": [],
+            "material": "",
+            "position": [
+                -7.11743,
+                2.00181,
+                0.617664
+            ],
+            "rotation": [
+                -4.9741e-11,
+                -0.0538795,
+                1.846e-9
+            ],
+            "quaternion": [
+                0.999637,
+                9.35355e-16,
+                -0.0269365,
+                9.21997e-10
+            ],
+            "scale": [
+                5.45407,
+                5.88763,
+                5.45407
+            ],
+            "visible": true,
+            "castShadow": false,
+            "receiveShadow": false,
+            "doubleSided": false
+        },
+        "PhotoFrame": {
+            "geometry": "geo_Plane",
+            "groups": [],
+            "material": "",
+            "position": [
+                -6.73101,
+                -0.906842,
+                3.44976
+            ],
+            "rotation": [
+                1.5708,
+                0,
+                0
+            ],
+            "quaternion": [
+                0.707107,
+                0.707107,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "visible": true,
+            "castShadow": false,
+            "receiveShadow": false,
+            "doubleSided": false
+        },
+        "PhotoFrame.001": {
+            "geometry": "geo_Plane.001",
+            "groups": [],
+            "material": "",
+            "position": [
+                -1.6585,
+                0.561185,
+                3.63194
+            ],
+            "rotation": [
+                1.5708,
+                0,
+                0
+            ],
+            "quaternion": [
+                0.707107,
+                0.707107,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "visible": true,
+            "castShadow": false,
+            "receiveShadow": false,
+            "doubleSided": false
+        },
+        "PhotoFrame.002": {
+            "geometry": "geo_Plane.002",
+            "groups": [],
+            "material": "",
+            "position": [
+                -2.64456,
+                4.62329,
+                3.67374
+            ],
+            "rotation": [
+                1.5708,
+                0,
+                0
+            ],
+            "quaternion": [
+                0.707107,
+                0.707107,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "visible": true,
+            "castShadow": false,
+            "receiveShadow": false,
+            "doubleSided": false
+        },
+        "PhotoFrame.003": {
+            "geometry": "geo_Plane.003",
+            "groups": [],
+            "material": "",
+            "position": [
+                4.43104,
+                7.41264,
+                3.35627
+            ],
+            "rotation": [
+                1.5708,
+                0,
+                0
+            ],
+            "quaternion": [
+                0.707107,
+                0.707107,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "visible": true,
+            "castShadow": false,
+            "receiveShadow": false,
+            "doubleSided": false
+        },
+        "PhotoFrame.004": {
+            "geometry": "geo_Plane.004",
+            "groups": [],
+            "material": "",
+            "position": [
+                1.60473,
+                -2.68847,
+                3.59014
+            ],
+            "rotation": [
+                1.5708,
+                0,
+                0
+            ],
+            "quaternion": [
+                0.707107,
+                0.707107,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "visible": true,
+            "castShadow": false,
+            "receiveShadow": false,
+            "doubleSided": false
+        },
+        "Lamp": {
+            "name": "Lamp",
+            "type": "PointLight",
+            "intensity": 1,
+            "range": 30,
+            "linear": 0,
+            "quadratic": 1,
+            "position": [
+                4.07625,
+                1.00545,
+                5.90386
+            ],
+            "color": 16777215
+        },
+        "Point": {
+            "name": "Point",
+            "type": "PointLight",
+            "intensity": 1,
+            "range": 25,
+            "linear": 0,
+            "quadratic": 1,
+            "position": [
+                -1.99457,
+                4.13236,
+                1.55009
+            ],
+            "color": 16777215
+        },
+        "Point.001": {
+            "name": "Point.001",
+            "type": "PointLight",
+            "intensity": 1,
+            "range": 25,
+            "linear": 0,
+            "quadratic": 1,
+            "position": [
+                -7.75055,
+                -1.33129,
+                -6.09659
+            ],
+            "color": 16777215
+        },
+        "Camera": {
+            "name": "Camera",
+            "type": "PerspectiveCamera",
+            "fov": 49.159264,
+            "aspect": 1.333,
+            "near": 0.1,
+            "far": 100,
+            "position": [
+                8.57499,
+                -4.98123,
+                4.71415
+            ],
+            "target": [
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "geometries": {
+        "geo_Mesh.00": {
+            "type": "ascii",
+            "url": "scene.json.Mesh.00.js"
+        },
+        "geo_Plane": {
+            "type": "ascii",
+            "url": "scene.json.Plane.js"
+        },
+        "geo_Plane.001": {
+            "type": "ascii",
+            "url": "scene.json.Plane.001.js"
+        },
+        "geo_Plane.002": {
+            "type": "ascii",
+            "url": "scene.json.Plane.002.js"
+        },
+        "geo_Plane.003": {
+            "type": "ascii",
+            "url": "scene.json.Plane.003.js"
+        },
+        "geo_Plane.004": {
+            "type": "ascii",
+            "url": "scene.json.Plane.004.js"
+        }
+    },
+    "textures": {
+        "img1.png": {
+            "url": "img1.png",
+            "wrap": [
+                "repeat",
+                "repeat"
+            ]
+        },
+        "book.png": {
+            "url": "book.png"
+        }
+    },
+    "materials": {
+        "Material": {
+            "type": "MeshLambertMaterial",
+            "parameters": {
+                "color": 3277824,
+                "opacity": 1,
+                "blending": "NormalBlending"
+            }
+        },
+        "Material.001": {
+            "type": "MeshLambertMaterial",
+            "parameters": {
+                "color": 3121571,
+                "opacity": 1,
+                "blending": "NormalBlending"
+            }
+        },
+        "Material.002": {
+            "type": "MeshLambertMaterial",
+            "parameters": {
+                "color": 10682423,
+                "opacity": 1,
+                "blending": "NormalBlending"
+            }
+        },
+        "Material.003": {
+            "type": "MeshLambertMaterial",
+            "parameters": {
+                "color": 10724259,
+                "opacity": 1,
+                "map": "book.png",
+                "blending": "NormalBlending"
+            }
+        },
+        "PhotoFrameMaterial": {
+            "type": "MeshLambertMaterial",
+            "parameters": {
+                "color": 13087254,
+                "opacity": 1,
+                "blending": "NormalBlending"
+            }
+        },
+        "PhotoMaterial": {
+            "type": "MeshLambertMaterial",
+            "parameters": {
+                "color": 10396478,
+                "opacity": 1,
+                "map": "img1.png",
+                "blending": "NormalBlending"
+            }
+        },
+        "PhotoMaterial2": {
+            "type": "MeshLambertMaterial",
+            "parameters": {
+                "color": 9406001,
+                "opacity": 1,
+                "map": "img1.png",
+                "blending": "NormalBlending"
+            }
+        },
+        "TubeMaterial": {
+            "type": "MeshLambertMaterial",
+            "parameters": {
+                "color": 8223602,
+                "opacity": 1,
+                "blending": "NormalBlending"
+            }
+        }
+    },
+    "transform": {
+        "position": [
+            0,
+            0,
+            0
+        ],
+        "rotation": [
+            -1.5708,
+            0,
+            0
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ]
+    },
+    "defaults": {
+        "bgcolor": [
+            0,
+            0,
+            0
+        ],
+        "bgalpha": 1,
+        "camera": "Camera"
+    }
+}

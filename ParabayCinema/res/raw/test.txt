@@ -1,0 +1,227 @@
+{
+
+"metadata" :
+{
+    "formatVersion" : 1.0,
+    "type"             : "scene",
+    "sourceFile"    : "beatlesTut9.blend",
+    "generatedBy"   : "Parabay Blender 2.64 Exporter",
+    "objects"       : 6,
+    "geometries"    : 1,
+    "materials"     : 5,
+    "textures"      : 5
+},
+
+"actions" : [],
+"lights" : [    {
+        "name"         : "Lamp",
+        "type"       : "PointLight",
+        "intensity"  : 1.00,
+        "range"  : 30.00,
+        "linear"  : 0.00,
+        "quadratic"  : 1.00,
+        "position"   : [ 2.92964, 2.17754, 5.90386 ],
+        "color"      : 16777215
+    },
+
+    {
+        "name"         : "Lamp.001",
+        "type"       : "PointLight",
+        "intensity"  : 1.00,
+        "range"  : 30.00,
+        "linear"  : 0.00,
+        "quadratic"  : 1.00,
+        "position"   : [ 3.11363, -2.30696, -4.50474 ],
+        "color"      : 16777215
+    },
+
+    {
+        "name"         : "Lamp.002",
+        "type"       : "PointLight",
+        "intensity"  : 1.00,
+        "range"  : 30.00,
+        "linear"  : 0.00,
+        "quadratic"  : 1.00,
+        "position"   : [ -2.57406, -2.35792, 5.90386 ],
+        "color"      : 16777215
+    },
+
+    {
+        "name"         : "Lamp.003",
+        "type"       : "PointLight",
+        "intensity"  : 1.00,
+        "range"  : 30.00,
+        "linear"  : 0.00,
+        "quadratic"  : 1.00,
+        "position"   : [ -2.67785, 2.27946, -4.4519 ],
+        "color"      : 16777215
+    }],
+"cameras" : [    {
+        "name"    : "Camera",
+        "type"  : "PerspectiveCamera",
+        "fov"   : 49.159264,
+        "aspect": 1.333000,
+        "near"  : 0.100000,
+        "far"   : 100.000000,
+        "position": [ 7.48113, -6.50764, 5.34367 ],
+        "target"  : [ 0, 0, 0 ]
+    }],
+
+"urlBaseType" : "relativeToScene",
+
+
+"objects" :
+{
+    "Cube" : {
+        "geometry"  : "geo_Cube.001",
+        "groups"    : [  ],
+        "material"  : "",
+        "position"  : [ 0, 0, 0 ],
+        "rotation"  : [ 0, -0, 0 ],
+        "quaternion": [ 1, 0, 0, 0 ],
+        "scale"     : [ 1, 1, 1 ],
+        "visible"       : true,
+        "castShadow"    : false,
+        "receiveShadow" : false,
+        "doubleSided"   : false
+    },
+
+"Lamp" :     {
+        "name"         : "Lamp",
+        "type"       : "PointLight",
+        "intensity"  : 1.00,
+        "range"  : 30.00,
+        "linear"  : 0.00,
+        "quadratic"  : 1.00,
+        "position"   : [ 2.92964, 2.17754, 5.90386 ],
+        "color"      : 16777215
+    },
+
+"Lamp.001" :     {
+        "name"         : "Lamp.001",
+        "type"       : "PointLight",
+        "intensity"  : 1.00,
+        "range"  : 30.00,
+        "linear"  : 0.00,
+        "quadratic"  : 1.00,
+        "position"   : [ 3.11363, -2.30696, -4.50474 ],
+        "color"      : 16777215
+    },
+
+"Lamp.002" :     {
+        "name"         : "Lamp.002",
+        "type"       : "PointLight",
+        "intensity"  : 1.00,
+        "range"  : 30.00,
+        "linear"  : 0.00,
+        "quadratic"  : 1.00,
+        "position"   : [ -2.57406, -2.35792, 5.90386 ],
+        "color"      : 16777215
+    },
+
+"Lamp.003" :     {
+        "name"         : "Lamp.003",
+        "type"       : "PointLight",
+        "intensity"  : 1.00,
+        "range"  : 30.00,
+        "linear"  : 0.00,
+        "quadratic"  : 1.00,
+        "position"   : [ -2.67785, 2.27946, -4.4519 ],
+        "color"      : 16777215
+    },
+
+"Camera" :     {
+        "name"    : "Camera",
+        "type"  : "PerspectiveCamera",
+        "fov"   : 49.159264,
+        "aspect": 1.333000,
+        "near"  : 0.100000,
+        "far"   : 100.000000,
+        "position": [ 7.48113, -6.50764, 5.34367 ],
+        "target"  : [ 0, 0, 0 ]
+    }
+},
+
+
+"geometries" :
+{
+    "geo_Cube.001" : {
+        "type" : "ascii",
+        "url"  : "beatlesTut9.json.Cube.001.js"
+    }
+},
+
+
+"textures" :
+{
+    "beatle3.jpg" : {
+        "url": "beatle3.jpg",
+        "wrap": ["repeat", "repeat"]
+    },
+
+    "beatle1.jpg" : {
+        "url": "beatle1.jpg",
+        "wrap": ["repeat", "repeat"]
+    },
+
+    "beatles.jpg" : {
+        "url": "beatles.jpg",
+        "wrap": ["repeat", "repeat"]
+    },
+
+    "beatle2.jpg" : {
+        "url": "beatle2.jpg",
+        "wrap": ["repeat", "repeat"]
+    },
+
+    "beatle4.jpg" : {
+        "url": "beatle4.jpg",
+        "wrap": ["repeat", "repeat"]
+    }
+},
+
+
+"materials" :
+{
+    "george" : {
+        "type": "MeshLambertMaterial",
+        "parameters": { "color": 10724259, "opacity": 1, "map": "beatle3.jpg", "blending": "NormalBlending" }
+    },
+
+    "john" : {
+        "type": "MeshLambertMaterial",
+        "parameters": { "color": 10724259, "opacity": 1, "map": "beatle1.jpg", "blending": "NormalBlending" }
+    },
+
+    "logo" : {
+        "type": "MeshLambertMaterial",
+        "parameters": { "color": 10724259, "opacity": 1, "map": "beatles.jpg", "blending": "NormalBlending" }
+    },
+
+    "paul" : {
+        "type": "MeshLambertMaterial",
+        "parameters": { "color": 10724259, "opacity": 1, "map": "beatle2.jpg", "blending": "NormalBlending" }
+    },
+
+    "ringo" : {
+        "type": "MeshLambertMaterial",
+        "parameters": { "color": 10724259, "opacity": 1, "map": "beatle4.jpg", "blending": "NormalBlending" }
+    }
+},
+
+
+"transform" :
+{
+    "position"  : [ 0, 0, 0 ],
+    "rotation"  : [ -1.5708, 0, 0 ],
+    "scale"     : [ 1, 1, 1 ]
+},
+
+"defaults" :
+{
+    "bgcolor" : [ 0, 0, 0 ],
+    "bgalpha" : 1.000000,
+    "camera"  : "default_camera"
+}
+
+}

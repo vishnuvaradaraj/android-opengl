@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="youtubevideoid">YouTube Video ID</string>
+    <string name="viewVideoButton">View Using OpenYouTubeActivity!</string>
+    <string name="defaultYoutubeVideoId">A4sEpVJh-RQ</string>
+    
+    <string name="app_name">Parabay Cinema</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_slides">Slides</string>
+    <string name="menu_planes">3D Planes</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+	<string name="wallpaper_desc">Parabay Cinema</string>
+	
+    <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    
+    <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->
+    <string name="select_image">Select photo</string>
+    <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->
+    <string name="select_video">Select video</string>
+    <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
+    <string name="select_item">Select item</string>
+    <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
+    <string name="select_album">Select album</string>
+    <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
+    <string name="select_group">Select group</string>
+    
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing all available albums [CHAR LIMIT=20] -->
+    <string name="set_label_all_albums">All albums</string>
+    
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing albums stored locally on the device [CHAR LIMIT=20] -->
+    <string name="set_label_local_albums">Local albums</string>
+    
+    
+    <!-- When grouping photos by tags, the label used for photos without tags
+         [CHAR LIMIT=20]-->
+    <string name="untagged">Untagged</string>
+    
+    <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
+    <string name="folder_camera">Camera</string>
+
+    <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
+    <string name="folder_download">Download</string>
+
+    <!-- The label for the folder contains pictures that was imported from an
+         external camera. [CHAR LIMIT=20]-->
+    <string name="folder_imported">Imported</string>
+
+    <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
+    <string name="folder_screenshot">Screenshot</string>
+    
+    <!-- When grouping photos by locations, the label used for photos that don't
+         have location information in them [CHAR LIMIT=20]-->
+    <string name="no_location">No location</string>
+
+    <!-- This toast message is shown when network connection is lost while doing clustering -->
+    <string name="no_connectivity">Some locations couldn\'t be identified due to network problems.</string>
+
+    <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
+    <string name="sync_album_error">Couldn\'t download the photos in this album. Retry later.</string>
+    
+    <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+    <string name="unit_mm">mm</string>
+    
+        <!-- Label of a group of pictures. The size of each picture in this group is
+         less than a certain amount. The parameter is a string representation
+         of that amount, eg. "10MB".
+         [CHAR LIMIT=20]
+    -->
+    <string name="size_below">%1 or below</string>
+
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         more than a certain amount. The parameter is a string representation
+         of that amount, eg. "10MB".
+         [CHAR LIMIT=20]
+    -->
+    <string name="size_above">%1 or above</string>
+
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         between two amounts. The parameters are string representations of the two
+         amounts, eg. "10MB", "100MB".
+         [CHAR LIMIT=20]
+    -->
+    <string name="size_between"> %1 - </string>
+    
+    <!-- shown in the video player view while the video is being loaded, before it starts playing -->
+    <string name="loading_video">Loading video\u2026</string>
+    <string name="loading_image">Loading image\u2026</string>
+    
+        <!-- Movie View Resume Playing dialog title -->
+    <string name="resume_playing_title">Resume video</string>
+
+    <!-- Movie View Start Playing dialog title -->
+    <string name="resume_playing_message">Resume playing from %s ?</string>
+    <!-- Movie View Start Playing button "Resume from bookmark" -->
+    <string name="resume_playing_resume">Resume playing</string>
+    
+    <!-- Movie View Start Playing button "Beginning" -->
+    <string name="resume_playing_restart">Start over</string>
+    
+    <string name="movie_view_label">Video player</string>
+
+    <!-- String indicating an approximate location eg. Around Palo Alto, CA -->
+    <string name="video_err">Can\'t play video.</string>
+    
+    <!-- Title of a menu item to group photo by location [CHAR LIMIT=30] -->
+    <string name="group_by_location">By location</string>
+
+    <!-- Title of a menu tiem to group photo by taken date [CHAR LIMIT=30]-->
+    <string name="group_by_time">By time</string>
+
+    <!-- Title of a menu item to group photo by tags [CHAR LIMIT=30]-->
+    <string name="group_by_tags">By tags</string>
+
+    <!-- Title of a menu item to group photo by faces [CHAR LIMIT=30]-->
+    <string name="group_by_faces">By people</string>
+
+    <!-- Title of a menu item to group photo by albums [CHAR LIMIT=30]-->
+    <string name="group_by_album">By album</string>    
+        
+    <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="albums">Albums</string>
+
+    <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="times">Times</string>
+
+    <!-- Group by Locations tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="locations">Locations</string>
+
+    <!-- Group by People tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="people">People</string>
+
+    <!-- Group by Tags tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="tags">Tags</string>
+
+    <!-- Group by menu item. [CHAR LIMIT=20] -->
+    <string name="group_by">Group by</string>
+        
+    <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
+    <string name="time">Time</string>
+    <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+    <string name="location">Location</string>
+    
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="share">Share</string>
+    
+    </resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parabay.cinema"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:glEsVersion="0x00020000" />
+    <uses-feature android:name="android.software.live_wallpaper" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />    
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+       
+    <application
+        android:name="com.parabay.cinema.media.app.GalleryAppImpl"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+              
+        <activity
+            android:name="com.parabay.cinema.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.parabay.cinema.LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+			<intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="oauth" android:host="com.parabay.cinema.twitter"/>
+            </intent-filter>            
+        </activity>
+        
+        <activity
+            android:name="com.parabay.cinema.ui.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        
+        <activity
+            android:name="com.parabay.cinema.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        
+
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.parabay.cinema.googleplus.OAuthActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="localhost"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.parabay.cinema.media.app.MovieActivity"
+                android:label="@string/movie_view_label"
+                android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        
+        <activity android:name="com.parabay.cinema.media.app.Gallery" 
+            	android:label="@string/app_name"
+                android:configChanges="keyboardHidden|orientation|screenSize">
+           <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         </activity>
+                 
+        <service
+            android:name="com.parabay.cinema.DataService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+              
+
+        <service
+            android:name="com.parabay.cinema.MainWallpaper"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_WALLPAPER" >
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/wallpaper" />
+        </service>
+                
+        <activity
+            android:name="com.parabay.cinema.media.app.SlideshowPage"
+            android:label="@string/title_activity_main" >
+        </activity>
+        
+        
+        <activity
+            android:label="@string/app_name"
+            android:name="com.parabay.cinema.googleplus.GooglePlusActivity" >
+        </activity>
+        <activity android:name="com.parabay.cinema.googleplus.MyProfileActivity" >
+        </activity>
+        <activity android:name="com.parabay.cinema.googleplus.ProfilesActivity" >
+        </activity>
+        <activity android:name="com.parabay.cinema.googleplus.ProfileActivitiesActivity" >
+        </activity>
+        
+        <activity
+            android:name="com.parabay.cinema.twitter.TwitterLoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+ c           </intent-filter>
+        </activity>
+        
+        
+        <activity android:name="com.parabay.cinema.test.BlenderLoadModelActivity" android:label="@string/app_name" ></activity>
+        <activity android:name="com.parabay.cinema.test.RajawaliUIElementsActivity" android:label="@string/app_name" ></activity>
+        <activity android:name="com.parabay.cinema.test.Text3DActivity" android:label="@string/app_name" ></activity>
+        <activity android:name="com.parabay.cinema.youtube.OpenYouTubePlayerActivity" android:label="@string/app_name" ></activity>
+        <activity android:name="com.parabay.cinema.test.PlanesActivity" android:label="@string/app_name" ></activity>
+        <activity android:name="com.parabay.cinema.test.MainActivity" android:label="@string/app_name" ></activity>
+               
+        
+    </application>
+
+</manifest>
